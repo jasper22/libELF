@@ -1,0 +1,170 @@
+﻿Build started 28/05/2015 13:51:15.
+     1>Project "C:\Projects\libelf\VC\libELF\libELF.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\libELF.tlog\libELF.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\libELF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Projects\libelf\lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D HAVE_CONFIG_H /D __LIBELF_INTERNAL__ /D LIBELF_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\lib\32.fsize.c ..\..\lib\32.getehdr.c ..\..\lib\32.getphdr.c ..\..\lib\32.getshdr.c ..\..\lib\32.newehdr.c ..\..\lib\32.newphdr.c ..\..\lib\32.xlatetof.c ..\..\lib\64.xlatetof.c ..\..\lib\assert.c ..\..\lib\begin.c ..\..\lib\checksum.c ..\..\lib\cntl.c ..\..\lib\cook.c ..\..\lib\data.c ..\..\lib\end.c ..\..\lib\errmsg.c ..\..\lib\errno.c ..\..\lib\fill.c ..\..\lib\flag.c ..\..\lib\gelfehdr.c ..\..\lib\gelfphdr.c ..\..\lib\gelfshdr.c ..\..\lib\gelftrans.c ..\..\lib\getarhdr.c ..\..\lib\getaroff.c ..\..\lib\getarsym.c ..\..\lib\getbase.c ..\..\lib\getdata.c ..\..\lib\getident.c ..\..\lib\getscn.c ..\..\lib\hash.c ..\..\lib\input.c ..\..\lib\kind.c ..\..\lib\memset.c ..\..\lib\ndxscn.c ..\..\lib\newdata.c ..\..\lib\newscn.c ..\..\lib\next.c ..\..\lib\nextscn.c ..\..\lib\nlist.c ..\..\lib\opt.delscn.c ..\..\lib\rand.c ..\..\lib\rawdata.c ..\..\lib\rawfile.c ..\..\lib\strptr.c ..\..\lib\swap64.c ..\..\lib\update.c ..\..\lib\verdef_32_tof.c ..\..\lib\verdef_32_tom.c ..\..\lib\verdef_64_tof.c ..\..\lib\verdef_64_tom.c ..\..\lib\version.c ..\..\lib\x.elfext.c ..\..\lib\x.movscn.c ..\..\lib\x.remscn.c check.c
+         check.c
+         x.remscn.c
+         x.movscn.c
+         x.elfext.c
+         version.c
+     1>c:\projects\libelf\lib\version.c(31): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+         verdef_64_tom.c
+         verdef_64_tof.c
+         verdef_32_tom.c
+         verdef_32_tof.c
+         update.c
+     1>c:\projects\libelf\lib\update.c(372): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(452): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(454): warning C4244: '+=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(464): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(466): warning C4244: '+=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(491): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(606): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(607): warning C4244: '=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(877): warning C4244: '=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(878): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\update.c(893): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(342) : see declaration of 'write'
+     1>c:\projects\libelf\lib\update.c(955): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(334) : see declaration of 'lseek'
+         swap64.c
+         strptr.c
+         rawfile.c
+         rawdata.c
+         rand.c
+         opt.delscn.c
+         nlist.c
+     1>c:\projects\libelf\lib\nlist.c(82): warning C4244: '=' : conversion from 'Elf64_Addr' to 'long', possible loss of data
+     1>c:\projects\libelf\lib\nlist.c(237): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(336) : see declaration of 'open'
+     1>c:\projects\libelf\lib\nlist.c(242): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+         nextscn.c
+         next.c
+         newscn.c
+         Generating Code...
+         Compiling...
+         newdata.c
+         ndxscn.c
+         memset.c
+         kind.c
+         input.c
+     1>c:\projects\libelf\lib\input.c(38): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(337) : see declaration of 'read'
+     1>c:\projects\libelf\lib\input.c(67): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(334) : see declaration of 'lseek'
+         hash.c
+         getscn.c
+         getident.c
+         getdata.c
+         getbase.c
+         getarsym.c
+         getaroff.c
+         getarhdr.c
+         gelftrans.c
+         gelfshdr.c
+         gelfphdr.c
+     1>c:\projects\libelf\lib\gelfphdr.c(52): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\projects\libelf\lib\gelfphdr.c(112): warning C4018: '>=' : signed/unsigned mismatch
+         gelfehdr.c
+         flag.c
+         fill.c
+         errno.c
+         Generating Code...
+         Compiling...
+         errmsg.c
+         end.c
+         data.c
+         cook.c
+     1>c:\projects\libelf\lib\cook.c(137): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\cook.c(223): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\cook.c(301): warning C4244: '=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\cook.c(369): warning C4244: '=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\cook.c(370): warning C4244: '=' : conversion from 'Elf64_Off' to 'size_t', possible loss of data
+     1>c:\projects\libelf\lib\cook.c(371): warning C4244: '=' : conversion from 'Elf64_Xword' to 'size_t', possible loss of data
+         cntl.c
+         checksum.c
+         begin.c
+     1>c:\projects\libelf\lib\begin.c(272): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(334) : see declaration of 'lseek'
+         assert.c
+         64.xlatetof.c
+         32.xlatetof.c
+         32.newphdr.c
+         32.newehdr.c
+         32.getshdr.c
+         32.getphdr.c
+         32.getehdr.c
+         32.fsize.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Projects\libelf\VC\libELF\Debug\libELF.lib" /NOLOGO Debug\32.fsize.obj
+         Debug\32.getehdr.obj
+         Debug\32.getphdr.obj
+         Debug\32.getshdr.obj
+         Debug\32.newehdr.obj
+         Debug\32.newphdr.obj
+         Debug\32.xlatetof.obj
+         Debug\64.xlatetof.obj
+         Debug\assert.obj
+         Debug\begin.obj
+         Debug\checksum.obj
+         Debug\cntl.obj
+         Debug\cook.obj
+         Debug\data.obj
+         Debug\end.obj
+         Debug\errmsg.obj
+         Debug\errno.obj
+         Debug\fill.obj
+         Debug\flag.obj
+         Debug\gelfehdr.obj
+         Debug\gelfphdr.obj
+         Debug\gelfshdr.obj
+         Debug\gelftrans.obj
+         Debug\getarhdr.obj
+         Debug\getaroff.obj
+         Debug\getarsym.obj
+         Debug\getbase.obj
+         Debug\getdata.obj
+         Debug\getident.obj
+         Debug\getscn.obj
+         Debug\hash.obj
+         Debug\input.obj
+         Debug\kind.obj
+         Debug\memset.obj
+         Debug\ndxscn.obj
+         Debug\newdata.obj
+         Debug\newscn.obj
+         Debug\next.obj
+         Debug\nextscn.obj
+         Debug\nlist.obj
+         Debug\opt.delscn.obj
+         Debug\rand.obj
+         Debug\rawdata.obj
+         Debug\rawfile.obj
+         Debug\strptr.obj
+         Debug\swap64.obj
+         Debug\update.obj
+         Debug\verdef_32_tof.obj
+         Debug\verdef_32_tom.obj
+         Debug\verdef_64_tof.obj
+         Debug\verdef_64_tom.obj
+         Debug\version.obj
+         Debug\x.elfext.obj
+         Debug\x.movscn.obj
+         Debug\x.remscn.obj
+         Debug\check.obj
+         libELF.vcxproj -> C:\Projects\libelf\VC\libELF\Debug\libELF.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libELF.tlog\unsuccessfulbuild".
+         Touching "Debug\libELF.tlog\libELF.lastbuildstate".
+     1>Done Building Project "C:\Projects\libelf\VC\libELF\libELF.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.89
