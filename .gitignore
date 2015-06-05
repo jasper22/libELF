@@ -204,3 +204,7 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 *.obj
+*.tlog
+VC/libELF/Debug/libELF.tlog/libELF.lastbuildstate
+VC/libELF/Debug/libELF.log
+*.lastbuildstate
