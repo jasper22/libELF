@@ -17,7 +17,7 @@ License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
-#include <private.h>
+#include "private.h"
 
 #ifndef lint
 static const char rcsid[] = "@(#) $Id: getdata.c,v 1.13 2008/05/23 08:15:34 michael Exp $";

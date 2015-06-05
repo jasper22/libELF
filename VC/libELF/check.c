@@ -1,2 +1,2 @@
-#include <config.h>
+#include "config.h"
 #include <sys_elf.h>

@@ -69,7 +69,7 @@
 # include __LIBELF_HEADER_ELF_H
 #else /* __LIBELF_HEADER_ELF_H */
 # if __LIBELF_INTERNAL__
-#  include <elf_repl.h>
+#  include "elf_repl.h"
 # else /* __LIBELF_INTERNAL__ */
 #  include <libelf/elf_repl.h>
 # endif /* __LIBELF_INTERNAL__ */

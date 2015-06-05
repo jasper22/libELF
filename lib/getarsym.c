@@ -17,8 +17,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
  */
 
-#include <private.h>
-#include <byteswap.h>
+#include "private.h"
+#include "byteswap.h"
 
 #ifndef lint
 static const char rcsid[] = "@(#) $Id: getarsym.c,v 1.9 2008/05/23 08:15:34 michael Exp $";

@@ -17,8 +17,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
  */
 
-#include <private.h>
-#include <nlist.h>
+#include "private.h"
+#include "nlist.h"
 
 #ifndef lint
 static const char rcsid[] = "@(#) $Id: nlist.c,v 1.15 2008/05/23 08:15:35 michael Exp $";

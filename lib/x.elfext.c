@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
  */
 
-#include <private.h>
+#include "private.h"
 
 #ifndef lint
 static const char rcsid[] = "@(#) $Id: x.elfext.c,v 1.5 2009/07/07 17:57:43 michael Exp $";

@@ -226,5 +226,6 @@
     <None Include="..\..\lib\sys_elf.h">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
   </ItemGroup>
 </Project>

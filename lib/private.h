@@ -25,7 +25,7 @@
 #define __LIBELF_INTERNAL__ 1
 
 #if HAVE_CONFIG_H
-# include <config.h>
+# include "config.h"
 #endif /* HAVE_CONFIG_H */
 
 /*
@@ -117,14 +117,14 @@ struct ar_hdr {
 
 #endif /* HAVE_AR_H */
 
-#include <libelf.h>
+#include "libelf.h"
 
 #if HAVE_STRUCT_NLIST_DECLARATION
 # undef nlist
 #endif /* HAVE_STRUCT_NLIST_DECLARATION */
 
 #if __LIBELF64
-#include <gelf.h>
+#include "gelf.h"
 #endif /* __LIBELF64 */
 
 typedef struct Scn_Data Scn_Data;
